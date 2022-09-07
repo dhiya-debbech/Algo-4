@@ -1,0 +1,16 @@
+Algorithme Task4
+Var
+Tab : Array Of Integer {50};
+i , j , temp : Integer :=0;
+Begin 
+For(i=1;i<Tab.length;i++)
+j=i-1
+temp = Tab[i];
+While(j>=0;temp<Tab[j])
+Tab[j+1]=Tab[j]
+j= j-1;
+End While
+Tab[j+1] = tamp
+End
+
+
